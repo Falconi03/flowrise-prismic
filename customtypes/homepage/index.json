@@ -10,32 +10,6 @@
         "type": "Text",
         "config": { "label": "Title", "placeholder": "" }
       },
-      "body": {
-        "type": "StructuredText",
-        "config": {
-          "label": "Body",
-          "placeholder": "",
-          "allowTargetBlank": true,
-          "single": "paragraph,strong,em"
-        }
-      },
-      "button_text": {
-        "type": "Text",
-        "config": { "label": "Button Text", "placeholder": "" }
-      },
-      "button_link": {
-        "type": "Link",
-        "config": {
-          "label": "Button Link",
-          "placeholder": "",
-          "allowTargetBlank": false,
-          "select": null
-        }
-      },
-      "image": {
-        "type": "Image",
-        "config": { "label": "Image", "constraint": {}, "thumbnails": [] }
-      },
       "slices": {
         "type": "Slices",
         "fieldset": "Slice Zone",
